@@ -1,0 +1,125 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin"
+    },
+    {
+      "id": "3",
+      "login": "cozinheiro01"
+    }
+  ],
+  "cargos": [
+    {
+      "id": "2",
+      "nome": "Garçom"
+    },
+    {
+      "id": "3",
+      "nome": "Cozinheiro"
+    },
+    {
+      "id": "TIR9D2pMNjo",
+      "nome": "Caixa22"
+    }
+  ],
+  "mesas": [
+    {
+      "id": "1",
+      "numero": 1,
+      "capacidade": "4 Pessoas",
+      "status": "Livre"
+    },
+    {
+      "id": "2",
+      "numero": 2,
+      "capacidade": "2 Pessoas",
+      "status": "Reservado"
+    },
+    {
+      "id": "3",
+      "numero": 3,
+      "capacidade": "6 Pessoas",
+      "status": "Ocupado"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "1",
+      "nomeCliente": "Ana Souza",
+      "telefoneContato": "98888-4444",
+      "dataReserva": "21-10-26",
+      "horario": "20:00",
+      "quantidadePessoas": 2,
+      "idMesa": 2
+    },
+    {
+      "id": "1",
+      "nomeCliente": " Fillipe Esteves",
+      "telefoneContato": "98888-9999",
+      "dataReserva": "2026-10-25",
+      "horario": "19:30",
+      "quantidadePessoas": 10,
+      "idMesa": 8
+    }
+  ],
+  "itensCardapio": [
+    {
+      "id": "1",
+      "nome": "Bruschetta",
+      "categoria": "Entrada",
+      "preco": 25.9
+    },
+    {
+      "id": "2",
+      "nome": "Filé à Parmegiana",
+      "categoria": "Prato Principal",
+      "preco": 59.9
+    },
+    {
+      "id": "3",
+      "nome": "Pudim de Leite",
+      "categoria": "Sobremesa",
+      "preco": 14
+    },
+    {
+      "id": "4",
+      "nome": "Suco de Laranja",
+      "categoria": "Bebida",
+      "preco": 9
+    },
+    {
+      "id": "lsfvcexd5_U",
+      "nome": "ass",
+      "categoria": "Prato Principal",
+      "preco": "25"
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": "1",
+      "nome": "Giliane Barros",
+      "cpf": "11111111111",
+      "email": "giliane@sgr.com",
+      "telefone": "99999-1111",
+      "idCargo": 1
+    },
+    {
+      "id": "2",
+      "nome": "Fillipe Esteves",
+      "cpf": "22222222222",
+      "email": "fillipe@sgr.com",
+      "telefone": "99999-2222",
+      "idCargo": 2
+    },
+    {
+      "id": "3",
+      "nome": "Marcos Silva",
+      "cpf": "33333333333",
+      "email": "marcos@sgr.com",
+      "telefone": "99999-3333",
+      "idCargo": 3
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
